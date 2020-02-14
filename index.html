@@ -3,31 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/e645f17634.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+  <header>
+    <nav>
+      <img class="logo" src="images/logo.svg" alt="Huddle Logo">
+    </nav>
+  </header>
+  <main>
+    <div>
+      <img class="mockups" src="images/illustration-mockups.svg" alt="Huddle Mockups">
+    </div>
+    <section>
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion.</p>
+    </section>
+    <button>Register</button>  
+  </main>
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <section id="social-media">
+      <ul>
+        <li><i class="fab fa-facebook"></i>Facebook</li>
+        <li><i class="fab fa-twitter"></i>Twitter</li>
+        <li><i class="fab fa-instagram"></i>Instagram</li>
+      </ul>
+    </section>
+    <section id="attribution">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Vanity Espinosa</a>. <!-- Need to Remember to add my website once I cam complete (or GitHub) -->
+      </p>
+    </section>
   </footer>
 </body>
 </html>
