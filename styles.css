@@ -148,6 +148,10 @@ footer {
       background-color: var(--violet);
     }
     /********** Header Styles **********/
+    header {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
     .logo {
       width: 15%;
     }
@@ -187,6 +191,9 @@ footer {
     #social-media ul li i {
       text-align: center;
     }
+    #attribution p a {
+      color: #f3bdff;
+    }
 }
 
 /************************************************************
@@ -194,6 +201,9 @@ footer {
 ************************************************************/
 @media only screen and (min-width: 1850px) {
     /********** Main Styles **********/
+    #mockup {
+      padding-right: 7rem;
+    }
     .mockups {
       width: 55rem;
     }
@@ -216,7 +226,7 @@ footer {
 /************************************************************
   Extra Large Desktop Media Queries
 ************************************************************/
-@media only screen and (min-width: 1850px) {
+@media only screen and (min-width: 2560px) {
   /********** Header Styles **********/
   .logo {
     width: 12%;
