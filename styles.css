@@ -12,15 +12,18 @@
 }
 :root {
   --violet: hsl(257, 40%, 49%);
+  --white: #fff;
   --overall-padding: 25px 35px;
+  --sm-padding: 20px; 
 }
 html {
-  color: #fff;
+  color: var(--white);
   text-align: center;
+  background: url(/images/bg-mobile.svg) no-repeat top;
+  background-color: var(--violet);
 }
 body {
-  background: url(/images/bg-mobile.svg) no-repeat center center/cover;
-  background-color: var(--violet);
+  font-family: 'Open Sans', sans-serif;
 }
 footer {
   padding: var(--overall-padding);
@@ -43,12 +46,33 @@ nav {
   Main Default Styles
 ****************************************/
 main {
-  padding: var(--overall-padding);
+  padding: 0px 35px 50px 35px;
 }
 .mockups {
   width: 95%;
 }
-
+#intro h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 40px 0px 20px 0px;
+}
+#intro p {
+  padding-bottom: var(--sm-padding);
+}
+.btn {
+  width: 60%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background: var(--white);
+  color: var(--violet);
+  font-size: 1rem;
+}
+.btn:hover {
+  background: #585858;
+  color: var(--white);
+  cursor: pointer;
+}
 /****************************************
   Footer Default Styles
 ****************************************/
@@ -57,7 +81,13 @@ footer {
 }
 #social-media ul {
   list-style: none;
+  padding-bottom: var(--sm-padding);
 }
 #social-media ul li {
-  display: inline;
+  display: inline-flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+#social-media ul li:last-child {
+  padding-right: 0px;
 }
