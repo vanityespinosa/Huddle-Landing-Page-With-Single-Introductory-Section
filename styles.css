@@ -91,3 +91,11 @@ footer {
 #social-media ul li:last-child {
   padding-right: 0px;
 }
+#attribution p a {
+  text-decoration: none;
+  color: #e884ff;
+  font-weight: 700;
+}
+#attribution p a:hover {
+  text-decoration: underline;
+}
