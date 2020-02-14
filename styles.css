@@ -115,5 +115,110 @@ footer {
   Tablet Media Queries
 ************************************************************/
 @media only screen and (min-width: 415px) {
-  
+    /********** Header Styles **********/
+    header {
+      height: 15vh;
+    }
+    .logo {
+      width: 30%;
+    }
+    /********** Main Styles **********/
+    main {
+      height: 70vh;
+    }
+    .mockups {
+      width: 70%;
+    }
+    .btn {
+      width: 30%;
+    }
+    /********** Footer Styles **********/
+    footer {
+      height: 15vh;
+    }
+}
+
+/************************************************************
+  Desktop Media Queries
+************************************************************/
+@media only screen and (min-width: 1280px) {
+    /********** Overall Styles **********/
+    html {
+      background: url(/images/bg-desktop.svg) no-repeat left/cover;
+      background-color: var(--violet);
+    }
+    /********** Header Styles **********/
+    .logo {
+      width: 15%;
+    }
+    /********** Main Styles **********/
+    main {
+      display: flex;
+      justify-content: space-around;
+      padding: 30px 75px 0 75px; 
+    }
+    #mockup {
+      padding-right: 60px;
+    }
+    .mockups {
+      width: 700px;
+    }
+    #intro {
+      text-align: left;
+    }
+    #intro h1 {
+      font-size: 2rem;
+    }
+    #intro p, .btn{
+      font-size: 1.25rem;
+    }
+    .btn {
+      width: 40%;
+      height: 40px;
+    }
+    /********** Footer Styles **********/
+    footer {
+      padding-right: 75px;
+      padding-left: 75px
+    }
+    #social-media {
+      text-align: right;
+    }
+    #social-media ul li i {
+      text-align: center;
+    }
+}
+
+/************************************************************
+  Large Desktop Media Queries
+************************************************************/
+@media only screen and (min-width: 1850px) {
+    /********** Main Styles **********/
+    .mockups {
+      width: 55rem;
+    }
+    #intro h1 {
+      font-size: 3rem;
+    }
+    #intro p, .btn {
+      font-size: 1.75rem;
+    }
+    .btn {
+      width: 30%;
+      height: 45px;
+    }
+    /********** Footer Styles **********/
+    #social-media ul li {
+      font-size: 1.25rem;
+    }
+}
+
+/************************************************************
+  Extra Large Desktop Media Queries
+************************************************************/
+@media only screen and (min-width: 1850px) {
+  /********** Main Styles **********/
+  .mockups {
+    width: 75rem;
+  }
 }
