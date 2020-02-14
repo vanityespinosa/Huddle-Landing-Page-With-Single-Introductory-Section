@@ -99,3 +99,21 @@ footer {
 #attribution p a:hover {
   text-decoration: underline;
 }
+
+/************************************************************
+  Large Phone Media Queries
+************************************************************/
+@media only screen and (min-width: 414px) {
+  /********** Overall Styles **********/
+  html {
+    background: url(/images/bg-mobile.svg) no-repeat top center/cover;
+    background-color: var(--violet);
+  }
+}
+
+/************************************************************
+  Tablet Media Queries
+************************************************************/
+@media only screen and (min-width: 415px) {
+  
+}
