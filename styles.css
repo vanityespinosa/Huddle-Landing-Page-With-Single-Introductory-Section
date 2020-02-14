@@ -221,4 +221,8 @@ footer {
   .mockups {
     width: 75rem;
   }
+  .btn {
+    width: 20%;
+    height: 3rem;
+  }
 }
