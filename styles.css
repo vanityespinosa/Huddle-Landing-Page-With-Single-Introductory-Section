@@ -217,6 +217,10 @@ footer {
   Extra Large Desktop Media Queries
 ************************************************************/
 @media only screen and (min-width: 1850px) {
+  /********** Header Styles **********/
+  .logo {
+    width: 12%;
+  }
   /********** Main Styles **********/
   .mockups {
     width: 75rem;
